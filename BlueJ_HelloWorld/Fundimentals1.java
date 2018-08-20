@@ -41,6 +41,7 @@ public class Fundimentals1
         String boolex = "Some real life use of boolean is the decision of path between yes or no, true or false, 1 or 0.";
         String bytex = "Some real life use of byte is for such as in a video game, it can be easy to store simple informations such as the amount of players where not a large amount of numbers are needed or the amount of guns there can be or even the amount of bullets each guns can carry";
         String shotex = "Some real life use of short is to save up the memory that each byte information takes such as, the amount of players each gigantic server can contain, the total amount of bullets shooting out in a game of lets say, 2 thousand players.";
+        String intagerex = "Some real life use of int is to save data with a big number of values that also takes alot of memeroy";
         
         
     }

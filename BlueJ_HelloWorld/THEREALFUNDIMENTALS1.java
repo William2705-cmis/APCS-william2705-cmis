@@ -1,33 +1,11 @@
 
-/**
- * Write a description of class THEREALFUNDIMENTALS1 here.
- *
- * @author (your name)
- * @version (a version number or a date)
- */
 public class THEREALFUNDIMENTALS1
 {
-    // instance variables - replace the example below with your own
-    private int x;
-
-    /**
-     * Constructor for objects of class THEREALFUNDIMENTALS1
-     */
-    public THEREALFUNDIMENTALS1()
-    {
-        // initialise instance variables
-        x = 0;
-    }
-
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
-    }
+    public static void main(String[] args){
+    byte c = (byte)0b00100000;
+    System.out.println(c);
+ //^^^ use the (byte) to make sure it's negative instead of being assumed that you are trying to use an int.
+ // !!! int, double, boolean, and string are in the AP exam.
+ 
+}
 }
