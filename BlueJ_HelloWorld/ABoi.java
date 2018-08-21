@@ -4,7 +4,7 @@ public class ABoi
 {
 
 
-public void Boy ()
+public static void Boy ()
 {
  
   System.out.println ("    /:''|    ");    
@@ -28,7 +28,6 @@ public void Boy ()
   System.out.println ("    |_||__        ");
   System.out.println ("    (____))    ");
 
- 
 }
-System.out.println(Boy);
+
 }

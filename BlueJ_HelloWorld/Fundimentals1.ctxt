@@ -6,4 +6,6 @@ comment2.params=
 comment2.target=int\ gamingHours()
 comment3.params=
 comment3.target=void\ dataTypes()
-numComments=4
+comment4.params=a\ b
+comment4.target=int\ add(int,\ int)
+numComments=5
