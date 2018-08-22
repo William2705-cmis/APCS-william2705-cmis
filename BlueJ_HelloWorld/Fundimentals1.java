@@ -77,16 +77,42 @@ public class Fundimentals1
     }
     
     public static int add(int a, int b){
-        a = 3;
-        b = 6;
-        
         int sumAB = (a + b);
-        
-        
-    
-    
-    
-    return sumAB;
+        return sumAB;
     }
+    public static int sub(int a, int b){
+        int difAB = (a - b);
+        return difAB;
+    }
+    public static int mul(int a, int b){
+        int outAB = (a * b);
+        return outAB;
+    }
+    public static int div(int a, int b){
+        int proAB = (a / b);
+        return proAB;
+    }
+
+    
+    
+    
+    public static double add(double a, double b){
+        double sumAB = (a + b);
+        return sumAB;
+    }
+    public static double sub(double a, double b){
+        double subAB = (a - b);
+        return subAB;
+    }
+    public static double mul(double a, double b){
+        double outAB = (a * b);
+        return outAB;
+    }
+    public static double driv(double a, double b){
+        double proAB = (a / b);
+        return proAB;
+    }
+    
+    
     
 }
