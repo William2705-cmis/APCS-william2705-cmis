@@ -1,4 +1,4 @@
-
+import java.util.Scanner;
 public class Fundimentals1
 {
     public static void main ( String args[] ){
@@ -8,7 +8,47 @@ public class Fundimentals1
         System.out.println("Time: " + time );
         System.out.println(" Period: " + period );
         System.out.println(" Do I have coffee: " + coffee);
-        return ;
+        
+        //hard call for add and mul
+        double addhardcall = add(1,2);
+        System.out.println(addhardcall);
+        
+        double mulhardcall = mul(2,2);
+        System.out.println(mulhardcall);
+        
+        
+        //user input call for sub and div
+        Scanner user_input = new Scanner(System.in );
+        
+        double sub;
+        System.out.print("Subtraction-Give me 2 numbers: ");
+        double first_sub = user_input.nextDouble();
+        double second_sub = user_input.nextDouble();
+        System.out.println(("Result: ") + (first_sub - second_sub));
+        
+        double div;
+        System.out.print("Division-Give me 2 numbers: ");
+        double first_div = user_input.nextDouble();
+        double second_div = user_input.nextDouble();
+        System.out.println(("Result: ") + (first_div / second_div));
+        
+        
+        //compare
+        double compare;
+        System.out.print("Compare-Give me 2 numbers: ");
+        double compare1 = user_input.nextDouble();
+        double compare2 = user_input.nextDouble();
+        
+        if (compare1 > compare2){
+            System.out.format("The value of a is %f and it is greater than b whose value is %f",compare1,compare2);
+        }
+        
+        else if (compare1 < compare2){
+            System.out.format("The value of a is %f and it is less than b whose value is %f",compare1,compare2);
+        }
+         else if (compare1 == compare2){
+             System.out.format("The value of a is %f and it is equal to b whose value is %f",compare1,compare2);
+        }
     }
     
     public static int gamingHours(){
@@ -108,7 +148,7 @@ public class Fundimentals1
         double outAB = (a * b);
         return outAB;
     }
-    public static double driv(double a, double b){
+    public static double div(double a, double b){
         double proAB = (a / b);
         return proAB;
     }
