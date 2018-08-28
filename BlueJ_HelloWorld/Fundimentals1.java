@@ -20,35 +20,42 @@ public class Fundimentals1
         //user input call for sub and div
         Scanner user_input = new Scanner(System.in );
         
-        double sub;
+        double subinputcall;
         System.out.print("Subtraction-Give me 2 numbers: ");
         double first_sub = user_input.nextDouble();
         double second_sub = user_input.nextDouble();
-        System.out.println(("Result: ") + (first_sub - second_sub));
         
-        double div;
+        double sub = sub(first_sub, second_sub);
+        System.out.println(("Result: ") + (sub));
+        
+        double divinputcall;
         System.out.print("Division-Give me 2 numbers: ");
         double first_div = user_input.nextDouble();
         double second_div = user_input.nextDouble();
-        System.out.println(("Result: ") + (first_div / second_div));
+        
+        double div = div(first_div, second_div);
+        System.out.println(("Result: ") + (div));
         
         
-        //compare
-        double compare;
-        System.out.print("Compare-Give me 2 numbers: ");
-        double compare1 = user_input.nextDouble();
-        double compare2 = user_input.nextDouble();
+        //Compare
+        int compareinputcall;
+        System.out.format("Compare-Give me 2 numbers: ");
+        int compared1 = user_input.nextInt();
+        int compared2 = user_input.nextInt();
         
-        if (compare1 > compare2){
-            System.out.format("The value of a is %f and it is greater than b whose value is %f",compare1,compare2);
-        }
+        compare(compared1, compared2);
         
-        else if (compare1 < compare2){
-            System.out.format("The value of a is %f and it is less than b whose value is %f",compare1,compare2);
-        }
-         else if (compare1 == compare2){
-             System.out.format("The value of a is %f and it is equal to b whose value is %f",compare1,compare2);
-        }
+        
+        //EvenOddZero
+        int evenOddZero;
+        System.out.format("\n Give me a number and I will tell you if it is odd, even, or 0 \n For example: \n I will give you \"-1\" if it is odd. \n I will give you \"1\" if it is even. \n I will give you \"0\" if it is a zero ");
+        int evenOddZeroinput = user_input.nextInt();
+        evenOddZero(evenOddZeroinput);
+        
+        
+        
+        
+        
     }
     
     public static int gamingHours(){
@@ -152,6 +159,38 @@ public class Fundimentals1
         double proAB = (a / b);
         return proAB;
     }
+    
+    
+    
+    //hard coded compare
+    public static void compare(int compare1, int compare2){
+
+        if (compare1 > compare2){
+            System.out.format("The value of a is %d and it is greater than b whose value is %d",compare1,compare2);
+        }
+        
+        else if (compare1 < compare2){
+            System.out.format("The value of a is %d and it is less than b whose value is %d",compare1,compare2);
+        }
+         else if (compare1 == compare2){
+             System.out.format("The value of a is %d and it is equal to b whose value is %d",compare1,compare2);
+        } 
+    }
+    
+    
+    //oddEvenZero
+    public static void evenOddZero(int evenOddZeroinput){
+        if (evenOddZeroinput % 2 == 0 && evenOddZeroinput !=0 ){
+            System.out.format("1");
+        }
+        else if (evenOddZeroinput % 2 != 0 && evenOddZeroinput != 0 ){
+            System.out.format("-1");
+        }
+        else if (evenOddZeroinput == 0 ){
+            System.out.format("0");
+        }
+    }
+    
     
     
     
