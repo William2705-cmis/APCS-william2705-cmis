@@ -1,4 +1,6 @@
 import java.util.Scanner;
+
+
 public class Fundimentals1
 {
     public static void main ( String args[] ){
@@ -191,7 +193,31 @@ public class Fundimentals1
         }
     }
     
+    public static void squareTable(){
+        int squarebase = 1;
+        
+        for (int sq = squarebase; sq <= 10; sq++)
+        {
+            int boi = sq * sq;
+            int random = (int )(Math.random() * ((boi - sq)+1)) + sq;
+
+            System.out.format("%d\t%d\t%d\n",sq,boi, random);
+        }
+    }
     
+        public static void fkthiscomputer(){
+        int squarebase = 0;
+        
+        for (int yeet = squarebase; yeet <= 10; squarebase++)
+        {
+            int boi = yeet * yeet;
+            int random = (int )(Math.random() * ((boi - yeet)+1)) + yeet;
+
+            System.out.format("%d\t%d\t%d",yeet,boi, random);
+        }
+        
+        
+    }
+    }
     
-    
-}
+
