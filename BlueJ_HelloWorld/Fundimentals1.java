@@ -205,7 +205,7 @@ public class Fundimentals1
         }
     }
     
-        public static void fkthiscomputer(){
+        public static void yeetthiscomputer(){
         int squarebase = 0;
         
         for (int yeet = squarebase; yeet <= 10; squarebase++)
