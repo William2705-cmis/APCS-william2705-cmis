@@ -218,6 +218,30 @@ public class Fundimentals1
         
         
     }
+        public static void triangle(int number){
+            System.out.format("%d Triangled is ",number);
+            int num = number;
+            int result = 0;
+            for (int looptime = num; num > 1; number--)
+            {
+                result += number;
+                num = number; 
+            }
+            System.out.format("%d",result);
+        }
+        
+        public static void pyramid(int number){
+            System.out.format("%d Pyramided is ",number);
+            int num = number;
+            int result = 0;
+            for (int looptime = num; num > 1; number--)
+            {
+                result += number*number;
+                num = number; 
+            }
+            System.out.format("%d",result);
+        }
+        
     }
     
 
