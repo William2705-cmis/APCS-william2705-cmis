@@ -3,20 +3,12 @@
 public class Fundimentals2
 {
     public static void main(){
+        int[] intagers = new int[]{0, 1, 2, 3, 4};
+        double[] doubles = new double[]{0.2, 1.5, 2.3, 3.6, 4.1};
+        String[] strings = new String[]{"Hi", "Jeff", "I like to eat cheese", "这个系统能打中文吗?", "If it can, then it is 666"};
         
-     String numbers[] = new String[]{"|","+","#","@","*","&","/","\\"," ", ":", "w"};
-     int w = 0;
-     int h = 10;
-     int z = 5;
-     int p = (int) Math.random() * 10;
-        for(int n = w; n <= h; n++){
-            
-            System.out.print(numbers[p]);
-            p++;
-            if (n == h){
-                
-            }
-    }
+        System.out.println(intagers[0]);
+        System.out.println(doubles[2]);
+        System.out.println(strings[4]);
     }
 }
-
