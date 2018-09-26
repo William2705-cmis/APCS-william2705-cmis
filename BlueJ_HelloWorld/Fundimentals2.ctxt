@@ -2,4 +2,6 @@
 comment0.target=Fundimentals2
 comment1.params=
 comment1.target=void\ main()
-numComments=2
+comment2.params=array\ skip
+comment2.target=void\ printArray(int[],\ boolean)
+numComments=3
