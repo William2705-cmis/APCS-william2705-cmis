@@ -31,6 +31,8 @@ public class Fundimentals2
         System.out.println(middleItem(doubles));
         System.out.println(middleItem(booleans));
         System.out.println(middleItem(strings));
+        
+        randomInts(5,2,20);
     }
     
     
@@ -138,5 +140,27 @@ public class Fundimentals2
         String result = "";
         result = array[array.length / 2];
         return result;
+    }
+    
+    //#5__________________________
+    public static int[] randomInts(int n, int min, int max){
+        int [] num = new int[n];
+        int output = 0;
+        for(int x = 0; x < n; x++){
+            int d = (int)((Math.random() * (max - min) + min));
+            num [x] = d;
+            output += num[x];
+        }
+        return num;
+    }
+    
+    //#6___________________________
+    public static double[] randomDoubles(int n, double min, double max){
+        double [] num = new double[n];
+        for(int x = 0; x < n; x++){
+            double d = (double)((Math.random() * (max - min) + min));
+            num [x] = d;
+        }
+        return num;
     }
 }
