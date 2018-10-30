@@ -1,5 +1,4 @@
 
-
 public class Fundimentals2
 {
     public static void main(){
@@ -8,11 +7,11 @@ public class Fundimentals2
         double[] doubles = new double[]{0.2, 1.5, 2.3, 3.6, 4.1};
         boolean[] booleans = new boolean[]{true,false,true,false,true};
         String[] strings = new String[]{"Hi", "Jeff", "I like to eat cheese", "这个系统能打中文吗?", "If it can, then it is 666"};
-        
+
         System.out.println(intagers[0]);
         System.out.println(doubles[2]);
         System.out.println(strings[4]);
-        
+
         printArray(intagers,true);
         System.out.print("\n");
         printArray(doubles,false);
@@ -21,21 +20,20 @@ public class Fundimentals2
         System.out.print("\n");
         printArray(strings,false);
         System.out.print("\n");
-        
+
         System.out.println(lastItem(intagers));
         System.out.println(lastItem(doubles));
         System.out.println(lastItem(booleans));
         System.out.println(lastItem(strings));
-        
+
         System.out.println(middleItem(intagers));
         System.out.println(middleItem(doubles));
         System.out.println(middleItem(booleans));
         System.out.println(middleItem(strings));
-        
+
         randomInts(5,2,20);
     }
-    
-    
+
     //#2
     public static void printArray(int array[], boolean skip){
         int shkip = 0;
@@ -51,7 +49,8 @@ public class Fundimentals2
             }
         }
     }
-        public static void printArray(double array[], boolean skip){
+
+    public static void printArray(double array[], boolean skip){
         int shkip = 0;
         if(skip == true){
             while(shkip<array.length){
@@ -65,6 +64,7 @@ public class Fundimentals2
             }
         }
     }
+
     public static void printArray(boolean array[], boolean skip){
         int shkip = 0;
         if(skip == true){
@@ -79,6 +79,7 @@ public class Fundimentals2
             }
         }
     }
+
     public static void printArray(String array[], boolean skip){
         int shkip = 0;
         if(skip == true){
@@ -93,8 +94,7 @@ public class Fundimentals2
             }
         }
     }
-    
-    
+
     
     //#3
     public static int lastItem(int array[]){
@@ -102,23 +102,25 @@ public class Fundimentals2
         result = array[array.length - 1];
         return result;
     }
+
     public static double lastItem(double array[]){
         double result = 0;
         result = array[array.length - 1];
         return result;
     }
+
     public static boolean lastItem(boolean array[]){
         boolean result = true;
         result = array[array.length - 1];
         return result;
     }
+
     public static String lastItem(String array[]){
         String result = "";
         result = array[array.length - 1];
         return result;
     }
-    
-    
+
     
     //#4
     public static int middleItem(int array[]){
@@ -126,22 +128,25 @@ public class Fundimentals2
         result = array[array.length / 2];
         return result;
     }
+
     public static double middleItem(double array[]){
         double result = 0;
         result = array[array.length / 2];
         return result;
     }
+
     public static boolean middleItem(boolean array[]){
         boolean result = true;
         result = array[array.length / 2];
         return result;
     }
+
     public static String middleItem(String array[]){
         String result = "";
         result = array[array.length / 2];
         return result;
     }
-    
+
     //#5__________________________
     public static int[] randomInts(int n, int min, int max){
         int [] num = new int[n];
@@ -153,7 +158,7 @@ public class Fundimentals2
         }
         return num;
     }
-    
+
     //#6___________________________
     public static double[] randomDoubles(int n, double min, double max){
         double [] num = new double[n];
@@ -163,4 +168,65 @@ public class Fundimentals2
         }
         return num;
     }
+
+    
+    
+    
+    
+    
+    //#7
+    public static int[] copy(int[] array){
+        int[] intagerscopy = array;
+        return intagerscopy;
+    }
+
+    public static double[] copy(double[] array){
+        double[] doublescopy = array;
+        return doublescopy;
+    }
+
+    public static boolean[] copy(boolean[] array){
+        boolean[] booleanscopy = array;
+        return booleanscopy;
+    }
+
+    public static String[] copy(String[] array){
+        String[] Stringscopy = array;
+        return Stringscopy;
+    }
+
+    //#8
+    public static int[] pairs(int n){
+        int[] pairs = new int[n*2];
+        int a = 1;
+        for (int ctr=0;ctr<pairs.length;ctr++){    
+            pairs[ctr]=a*2;          
+            pairs[ctr+1]=a*2;
+            a+=1;
+            ctr+=1;
+        }
+        return pairs;
+    }
+
+    
+    //#9
+    public static int[] concat(int[] a, int[] b){
+        for(){}
+        
+        
+        
+
+        
+            
+
+    }
+            
+    
+    
+    
+    
+    
+    
+    
+    
 }
