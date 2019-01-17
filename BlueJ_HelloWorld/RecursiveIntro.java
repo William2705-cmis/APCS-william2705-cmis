@@ -1,9 +1,9 @@
-public class RecursiveIntro
+class RecursiveIntro
 {
     public static void main(String[] args){
-        
         System.out.println(multiply(2,3));
         System.out.println(division(9,3));
+        System.out.println(square(4,2));
     }
     
     public static int multiply(int a, int b){
@@ -25,9 +25,50 @@ public class RecursiveIntro
         if(b==1){
             return a;
         }
-            
+        else if (a < b){
+            return a;
+        }
         else{
-            return a - division(a,b-1);
+            return 1 + division(a - b,b);
         }
     }
+    
+    public static int square(int a, int b){
+            if(b==1){
+            return a;
+        }
+        else if(a == 1){
+            return a;
+        }
+        else if(b == 0 || a == 0){
+            return 0;
+        }
+        else{
+            return a * a + square(a,b-1);
+        }
+    }
+    
+    
+    
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
