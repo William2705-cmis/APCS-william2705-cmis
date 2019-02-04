@@ -1,8 +1,8 @@
 public class Tester
 {
     public static void main(String[] args){
-        ArrayType at = ArrayType.RANDOM; //SORTED, RANDOM, or REVERSED
-        int n = 100;
+        ArrayType at = ArrayType.SORTED; //SORTED, RANDOM, or REVERSED
+        int n = 7;
         int[] array = Util.getArray(n, at);
         int[] tmp = array;
         long start, stop, btime, itime, stime, mtime;

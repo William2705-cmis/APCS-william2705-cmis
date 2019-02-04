@@ -1,7 +1,7 @@
 #BlueJ class context
-comment0.target=MergeSort
+comment0.target=LinearSearch
 comment1.params=args
 comment1.target=void\ main(java.lang.String[])
-comment2.params=array
-comment2.target=int[]\ sort(int[])
+comment2.params=array\ number
+comment2.target=void\ search(int[],\ int)
 numComments=3
