@@ -1,14 +1,11 @@
 
-
 public class FundimentalsIII
 {
     public static void main ( String args[] ){
         int[][] defautint = new int[5][5];
         int[][] literalint = new int[{1,2,3},{4,5,6},{7,8,9}];
     }
-    
-    
-    
+
     
      public static int[][] shift(int[][] array, int shiftRow){
         for(int row = array.length - 1; row >= 0; row--){
