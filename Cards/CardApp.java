@@ -1,14 +1,13 @@
 public class CardApp
 {
     public static void main (String[] args){
-        Card[] deck = new Card[52];
-        int d = 0;
-        for(int rank = 0; rank < 13; rank++){
-            for(int suit = 0; suit < 4; suit++){
-                deck[d] = new Card(suit, rank);
-                d++;
-            }
-        }
+        Player player1 = new Player();
+        Player player2 = new Player();
+        Player player3 = new Player();
+        //Creating players
+        
+        Hand hand= new Hand();
+        Card card = new Card();
+        hand.addCard(card);
     }
-    
 }
