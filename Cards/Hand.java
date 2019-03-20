@@ -6,7 +6,7 @@ public class Hand
         cards = new ArrayList<Card>();
     }
     
-    public void addCard (Card card){
+    public void addCard(Card card){
         cards.add(card);
     }
     

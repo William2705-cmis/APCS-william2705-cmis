@@ -1,5 +1,5 @@
 #BlueJ class context
 comment0.target=Player
-comment1.params=name
-comment1.target=java.lang.String\ Name(java.lang.String)
+comment1.params=
+comment1.target=void\ player()
 numComments=2

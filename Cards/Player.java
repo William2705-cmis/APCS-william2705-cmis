@@ -1,8 +1,9 @@
 public class Player
 {
-    public String Name(String name){
+    public void player(){
+        int credit = 1000;
         
         
-        return name;
+        
     }
 }
