@@ -1,17 +1,17 @@
-public class Thing
+public class Thing extends Entity
 {
+
     public Thing(){
         super("default");
     }
     
-    public Thing(String name){
-        
-        super(name);
-        
+    public Thing(String name, int age){
+        super(name, age);
     }
     
-    public String ToString(){
-        
+    public String toString(){
+        String out = super.toString();
+        out += "->Thing";
+        return out;
     }
 }
-
