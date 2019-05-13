@@ -1,0 +1,15 @@
+#Greenfoot properties
+#Mon May 13 14:30:05 ICT 2019
+mainWindow.width=850
+class.Rocket.superclass=greenfoot.Actor
+class.Car.image=car.png
+project.charset=UTF-8
+version=3.0.0
+class.Rocket.image=rocket.png
+class.Car.superclass=greenfoot.Actor
+world.lastInstantiated=spaceBackground
+class.spaceBackground.image=space.jpg
+mainWindow.y=40
+class.spaceBackground.superclass=greenfoot.World
+mainWindow.x=40
+mainWindow.height=600
