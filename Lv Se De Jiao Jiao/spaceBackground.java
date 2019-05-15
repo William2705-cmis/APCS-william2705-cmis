@@ -32,5 +32,8 @@ public class spaceBackground extends World
         Car car = new Car();
         addObject(car,36,597);
         car.setLocation(32,586);
+        Car car2 = new Car();
+        addObject(car2,39,441);
+        removeObject(car2);
     }
 }

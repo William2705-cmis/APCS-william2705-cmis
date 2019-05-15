@@ -17,11 +17,16 @@ public class Car extends Actor
     public void act() 
     {
         fall();
+        if (Greenfoot.isKeyDown("space") && (getY() > getWorld().getHeight() - 20)) jump();
     }    
     public void fall() 
     {
         setLocation(getX(), getY()+ velocity);
+        if (getY() > getWorld().getHeight() - 20) velocity = 0;
+        else velocity += GRAVITY;
+    }
+    public void jump(){
+        velocity = -20;
     }
 }
 
-a
