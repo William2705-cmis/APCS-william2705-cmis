@@ -1,0 +1,15 @@
+#Greenfoot properties
+#Fri May 17 14:32:10 ICT 2019
+class.TSideOrCTSide.superclass=MyWorld
+class.PlayButton.image=6Tp5aga7c.png
+mainWindow.width=850
+class.TitlePage.image=counter-strike-global-offensive-2-720x720.jpg
+class.MyWorld.superclass=greenfoot.World
+project.charset=UTF-8
+version=3.0.0
+class.TitlePage.superclass=MyWorld
+world.lastInstantiated=TitlePage
+mainWindow.y=40
+class.PlayButton.superclass=greenfoot.Actor
+mainWindow.x=40
+mainWindow.height=600
