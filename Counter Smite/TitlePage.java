@@ -24,8 +24,15 @@ public class TitlePage extends MyWorld
      */
     private void prepare()
     {
+
         PlayButton playbutton = new PlayButton();
-        addObject(playbutton,294,193);
-        playbutton.setLocation(294,274);
+        addObject(playbutton,300,200);
+
+        
+        Titles titles = new Titles("Counter Smite");
+        addObject(titles,271,72);
+        titles.setLocation(453,20);
+        
+        
     }
 }

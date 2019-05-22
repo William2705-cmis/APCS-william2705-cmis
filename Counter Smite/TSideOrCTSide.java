@@ -15,5 +15,16 @@ public class TSideOrCTSide extends MyWorld
      */
     public TSideOrCTSide()
     {
+        prepare();
+    }
+    private void prepare()
+    {
+        TerroristCharacter terroristcharacter = new TerroristCharacter();
+        addObject(terroristcharacter,480,200);
+        
+        CounterTerroristCharacter counterterroristcharacter = new CounterTerroristCharacter();
+        addObject(counterterroristcharacter,150,200);
+        
+        
     }
 }

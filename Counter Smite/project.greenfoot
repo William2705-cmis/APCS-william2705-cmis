@@ -1,15 +1,24 @@
 #Greenfoot properties
-#Fri May 17 14:32:10 ICT 2019
-class.TSideOrCTSide.superclass=MyWorld
-class.PlayButton.image=6Tp5aga7c.png
-mainWindow.width=850
-class.TitlePage.image=counter-strike-global-offensive-2-720x720.jpg
-class.MyWorld.superclass=greenfoot.World
+#Wed May 22 09:46:31 ICT 2019
+class.TerroristCharacter.superclass=greenfoot.Actor
+class.CounterTerroristCharacter.superclass=greenfoot.Actor
 project.charset=UTF-8
-version=3.0.0
-class.TitlePage.superclass=MyWorld
-world.lastInstantiated=TitlePage
-mainWindow.y=40
-class.PlayButton.superclass=greenfoot.Actor
-mainWindow.x=40
 mainWindow.height=600
+version=3.0.0
+class.PlayButton.image=6Tp5aga7c.png
+class.TitlePage.superclass=MyWorld
+class.Titles.superclass=greenfoot.Actor
+class.TSideOrCTSide.superclass=MyWorld
+class.GunMechanics.superclass=
+world.lastInstantiated=Lv1Dust2
+class.MyWorld.superclass=greenfoot.World
+mainWindow.y=40
+class.TitlePage.image=counter-strike-global-offensive-2-720x720.jpg
+mainWindow.x=40
+class.TerroristCharacter.image=terrorist_PNG49.png
+class.Lv1Dust2.image=600px-Csgo_dust2.0.jpg
+class.TSideOrCTSide.image=brick.jpg
+mainWindow.width=850
+class.Lv1Dust2.superclass=MyWorld
+class.PlayButton.superclass=greenfoot.Actor
+class.CounterTerroristCharacter.image=csgo-transparent-counter-strike-2.png
