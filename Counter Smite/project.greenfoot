@@ -1,24 +1,31 @@
 #Greenfoot properties
-#Wed May 22 09:46:31 ICT 2019
+#Thu May 23 12:22:18 ICT 2019
 class.TerroristCharacter.superclass=greenfoot.Actor
-class.CounterTerroristCharacter.superclass=greenfoot.Actor
+class.NewMessageT.superclass=greenfoot.World
 project.charset=UTF-8
+class.CounterTerroristCharacter.superclass=greenfoot.Actor
 mainWindow.height=600
 version=3.0.0
 class.PlayButton.image=6Tp5aga7c.png
-class.TitlePage.superclass=MyWorld
+class.TitlePage.superclass=greenfoot.World
 class.Titles.superclass=greenfoot.Actor
-class.TSideOrCTSide.superclass=MyWorld
+class.DialogueT.superclass=greenfoot.World
+class.TSideOrCTSide.superclass=greenfoot.World
 class.GunMechanics.superclass=
-world.lastInstantiated=Lv1Dust2
+class.MessageAlert.image=g3825.png
+world.lastInstantiated=DialogueT
 class.MyWorld.superclass=greenfoot.World
+class.MessageAlert.superclass=greenfoot.Actor
 mainWindow.y=40
 class.TitlePage.image=counter-strike-global-offensive-2-720x720.jpg
+class.UserTextInput.superclass=greenfoot.Actor
 mainWindow.x=40
 class.TerroristCharacter.image=terrorist_PNG49.png
-class.Lv1Dust2.image=600px-Csgo_dust2.0.jpg
 class.TSideOrCTSide.image=brick.jpg
+class.DialogueT.image=plain-black-wallpaper-border-21-desktop-background.jpg
 mainWindow.width=850
-class.Lv1Dust2.superclass=MyWorld
 class.PlayButton.superclass=greenfoot.Actor
 class.CounterTerroristCharacter.image=csgo-transparent-counter-strike-2.png
+class.PressEnter.superclass=greenfoot.Actor
+class.OfficerDialogue.superclass=greenfoot.Actor
+class.NewMessageT.image=plain-black-wallpaper-border-21-desktop-background.jpg

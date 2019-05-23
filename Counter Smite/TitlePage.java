@@ -6,7 +6,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class TitlePage extends MyWorld
+public class TitlePage extends World
 {
 
     /**
@@ -15,6 +15,7 @@ public class TitlePage extends MyWorld
      */
     public TitlePage()
     {
+        super(600, 400, 1);
         prepare();
     }
 
@@ -30,8 +31,7 @@ public class TitlePage extends MyWorld
 
         
         Titles titles = new Titles("Counter Smite");
-        addObject(titles,271,72);
-        titles.setLocation(453,20);
+        addObject(titles,340,50);
         
         
     }

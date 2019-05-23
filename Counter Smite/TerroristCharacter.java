@@ -21,7 +21,7 @@ public class TerroristCharacter extends Actor
     }    
     private void click(){
         if(Greenfoot.mouseClicked(this)){
-            Greenfoot.setWorld(new Lv1Dust2());
+            Greenfoot.setWorld(new NewMessageT());
         }
     }
 }
