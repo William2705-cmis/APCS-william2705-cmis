@@ -18,26 +18,24 @@ public class DialogueT extends World
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(600, 400, 1); 
         prepare();
+        
     }
-
+    
+    
     /**
      * Prepare the world for the start of the program.
      * That is: create the initial objects and add them to the world.
      */
     private void prepare()
     {
-        int dialogueNumber = 0;
-        String dialogueHolder = "";
-        PressF pressenter = new PressF();
-        addObject(pressenter,360,360);
-        if(isKeyDown("F")){
-            dialogueHolder = "officerDialogue" + dialogueNumber;
-            dialogueNumber++;
-        }
-            
-        
-        OfficerDialogue dialogueHolder = new OfficerDialogue(">Hello fellow terrorist.");
-        addObject(officerdialogue,148,22);
+        Next pressf = new Next();
+        addObject(pressf,427,358);
+
+        OfficerDialogue officerDialogue = new OfficerDialogue(">Hello fellow terrorist.");
+        addObject(officerDialogue,148,22);
+
+        OfficerDialogue officerdialogue = new OfficerDialogue("What? Who are you?<");
+        addObject(officerdialogue,531,62);
 
         
     }

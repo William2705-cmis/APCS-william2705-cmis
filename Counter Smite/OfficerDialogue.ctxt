@@ -1,8 +1,12 @@
 #BlueJ class context
 comment0.target=OfficerDialogue
 comment0.text=\n\ Write\ a\ description\ of\ class\ OfficerDialogue\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
-comment1.params=text
-comment1.target=OfficerDialogue(java.lang.String)
+comment1.params=
+comment1.target=void\ info()
 comment2.params=
-comment2.target=void\ act()
-numComments=3
+comment2.target=int\ mouseclick()
+comment3.params=
+comment3.target=void\ act()
+comment4.params=text
+comment4.target=OfficerDialogue(java.lang.String)
+numComments=5

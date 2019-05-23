@@ -6,12 +6,12 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class PressF extends Actor
+public class Next extends Actor
 {
-    public PressF(){
+    public Next(){
         GreenfootImage img = new GreenfootImage (300, 60);
         img.setColor(Color.WHITE);
-        img.drawString(">Press (F) to continue<",2,50);
+        img.drawString(">Next<",2,50);
        
         setImage (img);
         
