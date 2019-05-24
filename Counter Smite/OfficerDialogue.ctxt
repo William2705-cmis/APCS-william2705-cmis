@@ -2,11 +2,7 @@
 comment0.target=OfficerDialogue
 comment0.text=\n\ Write\ a\ description\ of\ class\ OfficerDialogue\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
 comment1.params=
-comment1.target=void\ info()
-comment2.params=
-comment2.target=int\ mouseclick()
-comment3.params=
-comment3.target=void\ act()
-comment4.params=text
-comment4.target=OfficerDialogue(java.lang.String)
-numComments=5
+comment1.target=void\ act()
+comment2.params=text
+comment2.target=OfficerDialogue(java.lang.String)
+numComments=3

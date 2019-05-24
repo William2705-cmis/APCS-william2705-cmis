@@ -12,7 +12,7 @@ public class Titles extends Actor
         GreenfootImage img = new GreenfootImage (text.length()*10, 60);
         img.setColor(Color.WHITE);
         img.drawString(text,2,50);
-       
+        
         setImage (img);
         
         GreenfootImage myImage = getImage();

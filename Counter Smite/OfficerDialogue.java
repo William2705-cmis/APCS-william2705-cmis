@@ -8,18 +8,6 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class OfficerDialogue extends Actor
 {
-    private void info(){
-        if(mouseclick() == 1){
-            OfficerDialogue officerDialogue = new OfficerDialogue(">Hello fellow terrorist.");;
-        }
-    }
-    private int mouseclick(){
-        int x = 0;
-        if(Greenfoot.mouseClicked(this)){
-            x++;
-        }
-        return x;
-    }
     public void act() 
     {
         
