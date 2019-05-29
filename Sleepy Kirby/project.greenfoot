@@ -1,0 +1,19 @@
+#Greenfoot properties
+#Wed May 29 12:05:55 ICT 2019
+class.SleepingKirbyBubble.superclass=greenfoot.Actor
+class.SleepingKirby.superclass=greenfoot.Actor
+class.StartingPage.image=1280x720 (2).png
+class.GifImage.superclass=
+class.StartingPage.superclass=greenfoot.World
+class.Text.superclass=greenfoot.Actor
+mainWindow.width=850
+class.MinJusJobGoodLuck.superclass=
+class.MyWorld.superclass=greenfoot.World
+project.charset=UTF-8
+version=3.0.0
+class.SleepingKirby.image=SleepingKirby.gif
+class.SleepingKirbyBubble.image=pink-speech-bubble.svg.hi.png
+world.lastInstantiated=MyWorld
+mainWindow.y=40
+mainWindow.x=40
+mainWindow.height=600

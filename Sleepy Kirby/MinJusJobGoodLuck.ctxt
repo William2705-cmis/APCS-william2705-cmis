@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=MinJusJobGoodLuck
+comment0.text=\n\ Write\ a\ description\ of\ class\ MinJusJobGoodLuck\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=
+comment1.target=MinJusJobGoodLuck()
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ MinJusJobGoodLuck\n
+comment2.params=
+comment2.target=void\ nyanCat()
+comment3.params=
+comment3.target=void\ Coin()
+numComments=4
