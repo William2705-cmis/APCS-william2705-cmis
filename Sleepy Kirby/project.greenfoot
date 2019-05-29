@@ -1,19 +1,24 @@
 #Greenfoot properties
-#Wed May 29 12:05:55 ICT 2019
-class.SleepingKirbyBubble.superclass=greenfoot.Actor
-class.SleepingKirby.superclass=greenfoot.Actor
-class.StartingPage.image=1280x720 (2).png
-class.GifImage.superclass=
-class.StartingPage.superclass=greenfoot.World
-class.Text.superclass=greenfoot.Actor
-mainWindow.width=850
+#Wed May 29 13:58:52 ICT 2019
 class.MinJusJobGoodLuck.superclass=
-class.MyWorld.superclass=greenfoot.World
 project.charset=UTF-8
-version=3.0.0
-class.SleepingKirby.image=SleepingKirby.gif
-class.SleepingKirbyBubble.image=pink-speech-bubble.svg.hi.png
-world.lastInstantiated=MyWorld
-mainWindow.y=40
-mainWindow.x=40
+class.Text.superclass=greenfoot.Actor
 mainWindow.height=600
+class.SleepingKirbyBubble.superclass=greenfoot.Actor
+class.SleepingKirbyTitle.superclass=greenfoot.Actor
+version=3.0.0
+class.SleepingKirby.superclass=greenfoot.Actor
+class.SleepingKirby.image=SleepingKirby.gif
+world.lastInstantiated=MyWorld
+class.MyWorld.superclass=greenfoot.World
+mainWindow.y=40
+class.StartingPage.superclass=greenfoot.World
+mainWindow.x=40
+class.StartingPage.image=1280x720 (2).png
+class.SleepingKirbyTitle.image=picturetopeople.org-2075cb5401e5a8d61a8d565c9e95d219a13b3693d1caeb2582.png
+class.NextStar.image=purepng.com-gold-starstargeometricallydecagonconcavestardomyellow-stargold-1421526501456pnucr.png
+class.GifImage.superclass=
+mainWindow.width=850
+class.NextStar.superclass=SleepingKirbyBubble
+class.TextStartingPage.superclass=greenfoot.Actor
+class.SleepingKirbyBubble.image=pink-speech-bubble.svg.hi.png

@@ -11,7 +11,7 @@ public class TextStartingPage extends Actor
     private String[] strings = new String[]{"Stop it! You're gonna wake it up!", "Shhhhhh!", "Stop it!", "(&^!@%*!@%)(!@&*"};
    
     public TextStartingPage(String text){
-        GreenfootImage img = strings[NextStar.getDia]
+        GreenfootImage img = new GreenfootImage (text.length()*10, 60);
         img.setColor(Color.WHITE);
         img.drawString(text,2,50);
         

@@ -8,22 +8,31 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class StartingPage extends World
 {
-
+    private String[] strings = new String[]{"Stop it! You're gonna wake it up!", "Shhhhhh!", "Stop it!", "(&^!@%*!@%)(!@&*"};
     /**
      * Constructor for objects of class StartingPage.
      * 
      */
+    private NextStar nextstar = new NextStar();
     public StartingPage()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(1280, 720, 1); 
         prepare();
+        
+        
     }
 
     /**
      * Prepare the world for the start of the program.
      * That is: create the initial objects and add them to the world.
      */
+    public void act(){
+        if(nextstar.getDia()==1 && Greenfoot.mouseClicked(nextstar)){
+            TextStartingPage textstartingpage = strings[1];
+            
+        }
+    }
     private void prepare()
     {
         SleepingKirby sleepingkirby = new SleepingKirby();
@@ -35,5 +44,12 @@ public class StartingPage extends World
         TextStartingPage textstartingpage = new TextStartingPage("Kirby is sleeping...");
         addObject(textstartingpage,453,468);
 
+        SleepingKirbyTitle sleepingkirbytitle = new SleepingKirbyTitle();
+        addObject(sleepingkirbytitle,640,111);
+        
+        NextStar nextstar = new NextStar();
+        addObject(nextstar,476,513);
+        
+        
     }
 }
