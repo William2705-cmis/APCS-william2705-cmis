@@ -37,7 +37,8 @@ public class UmbrellaKirby extends Actor
             detect = getWorld();
             detect.removeObject(FallingStar);
         }
-        if ("enter".equals(Greenfoot.getKey())){
+        
+        if ("space".equals(Greenfoot.getKey())){
             poop();
         }
 
@@ -57,16 +58,16 @@ public class UmbrellaKirby extends Actor
     private void poop(){
         Poop fire = new Poop();
         getWorld().addObject(fire,getX(),getY());  
-        if (getImage().equals(left1) || getImage().equals(left2) || getImage().equals(left3) || getImage().equals(left4)) {
+        if (Greenfoot.isKeyDown("a")) {
             fire.setRotation(180);
         }
-        else if (getImage().equals(back1) || getImage().equals(back2) || getImage().equals(back3) || getImage().equals(back4)) {
+        else if (Greenfoot.isKeyDown("s")) {
             fire.setRotation(270);
         }
-        else if (getImage().equals(front1) || getImage().equals(front2) || getImage().equals(front3) || getImage().equals(front4)) {
+        else if (Greenfoot.isKeyDown("w")) {
             fire.setRotation(90);
         }
-        else if (getImage().equals(right1) || getImage().equals(right2) || getImage().equals(right3) || getImage().equals(right4)) {
+        else if (Greenfoot.isKeyDown("d")) {
             fire.setRotation(0);
         }        
         if(Greenfoot.isKeyDown("d") && (Greenfoot.isKeyDown("w"))){

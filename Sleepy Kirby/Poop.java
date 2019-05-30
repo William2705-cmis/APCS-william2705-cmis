@@ -21,9 +21,17 @@ public class Poop extends UmbrellaKirby
      */
     public void act() 
     {
-        move(10);
-        if(isAtEdge()){
+        move(15);
+        if((getX() < 0) || (getX() > 1280) || (getY() < 0) || (getY() > 720)){
             getWorld().removeObject(this);
+        }
+        
+        Actor Enemy;
+        Enemy = getOneObjectAtOffset (5,5,Enemy.class);
+        if(Enemy != null){
+            World detect;
+            detect = getWorld();
+            detect.removeObject(Enemy);
         }
     }    
 }

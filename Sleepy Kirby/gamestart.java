@@ -10,6 +10,7 @@ public class gamestart extends World
 {
 
     public void act(){
+        boolean addNumber = false;
         int max = 3;   
         int max2 = 5;
         int x = Greenfoot.getRandomNumber(1280);
@@ -65,4 +66,6 @@ public class gamestart extends World
         Number number = new Number("0");
         addObject(number,1201,5);
     }
+    
+    
 }

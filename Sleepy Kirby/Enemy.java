@@ -22,15 +22,16 @@ public class Enemy extends Actor
      */
     public void act() 
     {
-        move(4);
+        move(3);
         follow();
         
         Actor UmbrellaKirby;
-        UmbrellaKirby = getOneObjectAtOffset (5,5,UmbrellaKirby.class);
+        UmbrellaKirby = getOneObjectAtOffset (0,0,UmbrellaKirby.class);
         if(UmbrellaKirby != null){
             World detect;
             detect = getWorld();
             detect.removeObject(UmbrellaKirby);
+            
         }
     }    
 

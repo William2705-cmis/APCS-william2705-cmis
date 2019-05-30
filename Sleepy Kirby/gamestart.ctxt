@@ -1,11 +1,11 @@
 #BlueJ class context
 comment0.target=gamestart
-comment0.text=\n\ Write\ a\ description\ of\ class\ gamestart\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ gamestart\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
 comment1.params=
 comment1.target=void\ act()
 comment2.params=
 comment2.target=gamestart()
-comment2.text=\n\ Constructor\ for\ objects\ of\ class\ gamestart.\n\ \n
+comment2.text=\r\n\ Constructor\ for\ objects\ of\ class\ gamestart.\r\n\ \r\n
 comment3.params=
 comment3.target=void\ prepare()
 numComments=4
