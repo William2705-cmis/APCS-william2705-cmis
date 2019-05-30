@@ -28,10 +28,7 @@ public class StartingPage extends World
      * That is: create the initial objects and add them to the world.
      */
     public void act(){
-        if(nextstar.getDia()==1 && Greenfoot.mouseClicked(nextstar)){
-            TextStartingPage textstartingpage = strings[1];
-            
-        }
+        
     }
     private void prepare()
     {

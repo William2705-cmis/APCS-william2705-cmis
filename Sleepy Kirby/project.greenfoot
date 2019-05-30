@@ -1,7 +1,8 @@
 #Greenfoot properties
-#Wed May 29 13:58:52 ICT 2019
+#Thu May 30 12:30:47 ICT 2019
 class.MinJusJobGoodLuck.superclass=
 project.charset=UTF-8
+class.gamestart.image=GameStart.gif
 class.Text.superclass=greenfoot.Actor
 mainWindow.height=600
 class.SleepingKirbyBubble.superclass=greenfoot.Actor
@@ -9,14 +10,17 @@ class.SleepingKirbyTitle.superclass=greenfoot.Actor
 version=3.0.0
 class.SleepingKirby.superclass=greenfoot.Actor
 class.SleepingKirby.image=SleepingKirby.gif
-world.lastInstantiated=MyWorld
+class.UmbrellaKirby.superclass=greenfoot.Actor
+world.lastInstantiated=gamestart
 class.MyWorld.superclass=greenfoot.World
 mainWindow.y=40
 class.StartingPage.superclass=greenfoot.World
+class.gamestart.superclass=greenfoot.World
 mainWindow.x=40
 class.StartingPage.image=1280x720 (2).png
 class.SleepingKirbyTitle.image=picturetopeople.org-2075cb5401e5a8d61a8d565c9e95d219a13b3693d1caeb2582.png
 class.NextStar.image=purepng.com-gold-starstargeometricallydecagonconcavestardomyellow-stargold-1421526501456pnucr.png
+class.UmbrellaKirby.image=2fc1b8f82e14172e3bcae39ca8c8ab33.gif
 class.GifImage.superclass=
 mainWindow.width=850
 class.NextStar.superclass=SleepingKirbyBubble

@@ -23,16 +23,14 @@ public class NextStar extends SleepingKirbyBubble
      */
     public void act() 
     {
-        if(Greenfoot.mouseClicked(this)){
-            
-            setDia();
+        if(Greenfoot.mouseClicked(this)&&(dia==1)){
+            Greenfoot.setWorld(new gamestart());
+            dia++;
         }
-        
+        else if(Greenfoot.mouseClicked(this)&&(dia==2)){
+            
+            dia++;
+        }
     }    
-    public void setDia(){
-        dia++;
-    }
-    public int getDia(){
-        return dia;
-    }
+    
 }
