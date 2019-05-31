@@ -22,7 +22,7 @@ public class Enemy extends Actor
      */
     public void act() 
     {
-        move(3);
+        move(4);
         follow();
         
         Actor UmbrellaKirby;

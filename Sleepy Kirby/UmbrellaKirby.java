@@ -36,6 +36,7 @@ public class UmbrellaKirby extends Actor
             World detect;
             detect = getWorld();
             detect.removeObject(FallingStar);
+            
         }
         
         if ("space".equals(Greenfoot.getKey())){
